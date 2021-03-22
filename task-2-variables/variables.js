@@ -10,12 +10,12 @@ let userInfo;
 
 // 1
 console.log(test);
-var test = 'string'; // undefined, но почему, непонятно (связано с var)
+var test = 'string'; // undefined особенности var
 
 // 2
 var x = 'string';
 var x = 'string 2';
-console.log(x); // string 2, но почему, непонятно (связано с var)
+console.log(x); // string 2 особенности var и отличие от let
 
 // 3
 console.log(test);
