@@ -7,8 +7,6 @@
 6) Получить строку с 1 по 7 символ
 7) Получить из ух переменных типа number x = 20, y = 21 получить строку '2021*/
 
-
-
 let string = 'string test example'
 console.log(string[0], string[string.length-1]); //1
 console.log(string[0].toUpperCase() + 'tring test exampl' + string[string.length-1].toUpperCase());  //2
