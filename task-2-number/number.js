@@ -8,7 +8,23 @@
 
 
 console.log(typeof +Math.PI.toFixed(2), +Math.PI.toFixed(2)); //1
+
 console.log(Math.max(0, 17, 5, 12, 15, 99, 1), Math.min(0, 17, 5, 12, 15, 99, 1)); //2
+
+console.log(Math.random().toFixed(2)); //3.1
+
+let x = 5;
+console.log(Math.random()*x); //3.2
+
+
+console.log(parseInt('100$')); //3.3
+
+
+
+
+
+
+
 
 
 
