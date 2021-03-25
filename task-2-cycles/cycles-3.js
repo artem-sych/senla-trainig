@@ -7,7 +7,7 @@ for (let i = n; i > 0; i--) {
     if (x == n) {
         x = x + ',';
     } else if (i == 1) {
-        x =x + ' ' + i;
+        x = x + ' ' + i;
     } else {
         x = x + ' ' + i + ',';
     }
