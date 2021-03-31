@@ -6,10 +6,11 @@ let arr2 = ["x", "y", "z"];
 let arr = [arr1, arr2];
 
 function delFirstItem(...arr) {
-    arr.forEach(function (item, i, arr) {
+    arr.forEach(function (item) {
         item.splice(0, 1);
-        console.log(arr);
-    })
+      })
+    return arr;
 }
 
 delFirstItem(...arr);
+console.log(arr);

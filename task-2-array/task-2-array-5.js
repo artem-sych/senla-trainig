@@ -1,15 +1,19 @@
-// 4) Создать такую функцию, которая принимала бы любое число массивов и удаляла из каждого массива первый элемент, 
-//  а возвращала массив оставшихся значений ([1, 2, 3], ["x", "y", "z"] → [[2, 3], ["y", "z"]])"
+// 5) Создать функцию, которая упорядочит буквы в строке "екважбигёзд" 
+// в алфавитном порядке и возвратит строку в обратном порядке ("кизжёедгвба").
 
-let arr1 = [1, 2, 3];
-let arr2 = ["x", "y", "z"];
-let arr = [arr1, arr2];
+let a = "екважбигёзд";
+let str = "екважбигёзд";
 
-function delFirstItem(...arr) {
-    arr.forEach(function (item, i, arr) {
-        item.splice(0, 1);
-        console.log(arr);
-    })
+
+
+a = a.split().reverse();
+console.log(a);
+
+/*function sortStr(a) {
+    a = a.split();
+    return a;
+
 }
 
-delFirstItem(...arr);
+console.log(sortStr(str));*/
+
