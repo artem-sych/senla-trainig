@@ -1,19 +1,14 @@
 // 5) Создать функцию, которая упорядочит буквы в строке "екважбигёзд" 
 // в алфавитном порядке и возвратит строку в обратном порядке ("кизжёедгвба").
 
-let a = "екважбигёзд";
 let str = "екважбигёзд";
 
-
-
-a = a.split().reverse();
-console.log(a);
-
-/*function sortStr(a) {
-    a = a.split();
-    return a;
-
+function gerReverse(arr) {
+    let collator = new Intl.Collator(); 
+    arr = arr.split('').sort(function (a, b) {
+        return collator.compare(a, b);
+    }).reverse();
+    return arr;
 }
-
-console.log(sortStr(str));*/
-
+gerReverse(str);
+console.log(str);
