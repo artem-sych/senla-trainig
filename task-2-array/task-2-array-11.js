@@ -15,6 +15,8 @@ function arrSortShort(arr) {
     return arrSort;
 }
 
+let arrSort = [...array]
 
 
-console.log(arrSortShort(array))
+
+console.log(arrSortShort(arrSort))
